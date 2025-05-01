@@ -1,4 +1,3 @@
-# MasterOfGardenDumper
 It's Dumper For Game The Eminence in Shadow: Master of Garden(All Copyrights to Crunchyroll Games)... So Enjoy to use this!!!
 
 ## Donations
