@@ -7,7 +7,7 @@ using namespace std;
 namespace f = std::filesystem;
 DWORD WINAPI Thread() {
     HWND hwnd_m;
-    hwnd_m = FindWindowA(0, "MasterOfGarden");
+    hwnd_m = FindWindowA(0, "MasterOfGarden_Steam");
     if (!hwnd_m) {
         MessageBoxA(0, "Not Founded MasterOfGarden Window!!!", "MasterOfGardenDumper", MB_OK | MB_ICONERROR);
         exit(43212);
