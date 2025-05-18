@@ -14,8 +14,8 @@ DWORD WINAPI Thread() {
     }
     else {
         UnityResolve::Init(GetModuleHandleA("GameAssembly.dll"), UnityResolve::Mode::Il2Cpp);
-        UnityResolve::DumpToFile("MasterOfGarden_DumpedRVA_OffsetsANDfunctions"); //RVA it's Real Virtual Address :D
-        f::path p("MasterOfGarden_DumpedRVA_OffsetsANDfunctions.h");
+        UnityResolve::DumpToFile("MasterOfGardenSteam_DumpedRVA_OffsetsANDfunctions"); //RVA it's Real Virtual Address :D
+        f::path p("MasterOfGardenSteam_DumpedRVA_OffsetsANDfunctions.h");
         if (p.empty()) {
             exit(421);
         }
